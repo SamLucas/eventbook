@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playball&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background: #000 url("../../assets/background.jpg") no-repeat;
+  background-color: #ddd;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+#subroot {
+  background: black;
+  height: 100%;
+  width: 100%;
+  display: block;
+  opacity: 0.6;
+  top: 0;
+  position: absolute;
+  z-index: -67;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 14;
+}
+
+.container {
+  margin: 130px auto;
+  min-width: 450px;
+  width: 80%;
+  z-index: 17897987987987987070787;
+  background-color: #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container_description {
+  width: 50%;
+  margin: 30px auto;
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container_description span {
+  text-align: center;
+  opacity: 0.6;
+  justify-content: center;
+  font-size: 10pt;
+}
+.container_login,
+.container_cadastro,
+.container_sendemail {
+  background-color: white;
+  width: 50%;
+  padding: 30px;
+  border-radius: 0px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.container_login h1,
+.container_cadastro h1 {
+  margin: 20px 0px 50px;
+  text-transform: capitalize;
+}
+
+.container_login > form,
+.container_cadastro > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_login > form > label,
+.container_cadastro > form > label {
+  font-size: 12pt;
+}
+
+.container_login a,
+.container_cadastro a {
+  text-decoration: none;
+  font-style: italic;
+  font-size: 10pt;
+  color: #000;
+}
+
+.container_login a:hover,
+.container_cadastro a:hover {
+  cursor: pointer;
+}
+
+.container_login form input,
+.container_cadastro form input {
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+form div input {
+  margin-right: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+  border-radius: 2px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+form div .icon {
+  font-size: 15pt;
+  z-index: 1;
+  display: block;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: -55px;
+}
+
+.container_login > p {
+  margin: 30px 0;
+  text-align: center;
+  font-family: "Playball", Arial, Helvetica, sans-serif;
+  font-size: 16pt;
+  display: flex;
+  justify-content: center;
+}
+
+.container_login > p > div {
+  border-bottom: 2px solid #ddd;
+  width: 60px;
+  margin: 8px 10px;
+}
+
+.groupbutton {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+.groupbutton > button {
+  background-color: #000;
+  color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0;
+  margin: 10px 0px;
+}
+
+.iconlogin {
+  text-align: center;
+}
+
+.iconlogin > .icon {
+  margin: 0px 20px;
+  font-size: 30px;
+}
+
+.icon {
+  background: none;
+  border: 0;
+  font-size: 30pt;
+  cursor: pointer;
+}
+
+.checkgroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkboxinput {
+  width: 30px;
+  margin-top: -10px;
+}
+.cheboxclass {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.container_sendemail p {
+  font-style: 10px;
+}
